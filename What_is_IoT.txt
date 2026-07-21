@@ -1,0 +1,52 @@
+What is IoT (Internet of Things)?
+
+IoT (Internet of Things) is a network of physical devices that are
+connected to the internet so they can collect, share, and exchange data
+without requiring constant human intervention.
+
+These devices contain sensors, software, and communication technologies
+that allow them to interact with other devices or cloud systems.
+
+Simple Definition The Internet of Things (IoT) is a technology that
+connects everyday objects to the internet, enabling them to collect
+data, communicate, and perform tasks automatically.
+
+How IoT Works 1. Sensors collect data (temperature, motion, humidity,
+etc.). 2. Internet connection (Wi-Fi, Bluetooth, 4G/5G, etc.) sends the
+data. 3. Cloud or server stores and processes the data. 4. Application
+displays the information or sends commands back to the device. 5. The
+device acts based on the received instructions.
+
+Components of IoT - Devices/Sensors – Collect information. -
+Connectivity – Transfers data over the internet. - Cloud Platform –
+Stores and analyzes data. - Application/User Interface – Lets users
+monitor and control devices.
+
+Examples of IoT - Smart Home: Smart lights, smart fans, smart locks,
+smart thermostats. - Healthcare: Smartwatches that monitor heart rate
+and oxygen levels. - Agriculture: Soil moisture sensors for automatic
+irrigation. - Transportation: GPS tracking and smart traffic
+management. - Industry: Machines that monitor their own performance and
+predict failures.
+
+Advantages - Automation of everyday tasks. - Real-time monitoring. -
+Saves time and energy. - Improves efficiency and productivity. - Better
+decision-making using collected data.
+
+Disadvantages - Security and privacy risks. - Dependence on internet
+connectivity. - High setup cost. - Compatibility issues between
+devices. - Large amounts of data to manage.
+
+Real-Life Example A smart home system: - A temperature sensor detects
+that the room is too warm. - It sends the data to the cloud. - The cloud
+processes the information. - The smart air conditioner turns on
+automatically. - You can also monitor and control it using your
+smartphone.
+
+Applications of IoT - Smart homes - Smart cities - Healthcare -
+Agriculture - Manufacturing (Industry 4.0) - Transportation and
+logistics - Environmental monitoring - Retail
+
+One-Line Interview Answer IoT (Internet of Things) is a network of
+internet-connected physical devices that collect, share, and process
+data to automate tasks and improve efficiency.
