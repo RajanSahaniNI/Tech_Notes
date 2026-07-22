@@ -1,0 +1,117 @@
+Node.js Basics
+
+What is Node.js?
+
+Node.js is an open-source, cross-platform JavaScript runtime environment
+that allows you to run JavaScript outside the browser. It is built on
+Google’s V8 JavaScript Engine and is mainly used for building fast and
+scalable server-side applications.
+
+Features
+
+-   Asynchronous and non-blocking I/O
+-   Event-driven architecture
+-   Fast execution using the V8 engine
+-   Single-threaded with an event loop
+-   Cross-platform
+-   Large npm (Node Package Manager) ecosystem
+
+Advantages
+
+-   High performance
+-   Easy to learn for JavaScript developers
+-   Suitable for real-time applications
+-   Supports REST APIs and microservices
+-   Huge collection of open-source packages
+
+Installing Node.js
+
+1.  Download Node.js from https://nodejs.org
+2.  Install the LTS version.
+3.  Verify installation: node -v npm -v
+
+Running a Program
+
+Create a file named app.js:
+
+console.log(“Hello, Node.js!”);
+
+Run: node app.js
+
+Variables
+
+let name = “Rajan”; const age = 22; var city = “Chandigarh”;
+
+Data Types
+
+-   String
+-   Number
+-   Boolean
+-   Object
+-   Array
+-   Null
+-   Undefined
+-   BigInt
+-   Symbol
+
+Modules
+
+Built-in modules: - fs (File System) - http - path - os - events
+
+Import a module: const fs = require(“fs”);
+
+File System Example
+
+const fs = require(“fs”);
+
+fs.writeFileSync(“demo.txt”, “Hello Node.js”); const data =
+fs.readFileSync(“demo.txt”, “utf8”); console.log(data);
+
+HTTP Server
+
+const http = require(“http”);
+
+const server = http.createServer((req, res) => { res.write(“Hello
+World”); res.end(); });
+
+server.listen(3000);
+
+npm
+
+Initialize project: npm init -y
+
+Install package: npm install express
+
+Install development package: npm install nodemon –save-dev
+
+Package.json
+
+Stores project information, dependencies, and scripts.
+
+Event Loop
+
+The Event Loop allows Node.js to perform non-blocking operations by
+handling asynchronous tasks efficiently.
+
+Common Commands
+
+node filename.js npm init -y npm install package-name npm uninstall
+package-name npm start npm run dev
+
+Common Interview Questions
+
+1.  What is Node.js?
+2.  What is npm?
+3.  What is the Event Loop?
+4.  Difference between require() and import?
+5.  What is package.json?
+6.  What are callbacks, promises, and async/await?
+7.  What is Express.js?
+8.  What is middleware?
+9.  What is REST API?
+10. Difference between synchronous and asynchronous programming?
+
+Summary
+
+Node.js is widely used for backend development, REST APIs, real-time
+chat applications, streaming services, and scalable web applications.
