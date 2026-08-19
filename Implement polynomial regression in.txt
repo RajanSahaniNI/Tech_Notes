@@ -1,0 +1,3 @@
+Implement polynomial regression in python to predict ice cream sale based on the temperature . Transform the input feature into polynomial feature, trained model and visualize the polynomial regression coefficient along with a actual data points.
+Implement multiple linear regression in python to predict the house prices using multiple features such as house area,number of padlooms and age of house.
+Train a model and predict the price of new house.
